@@ -5,7 +5,6 @@ import Login from "./components/Login";
 import "./styles.scss";
 
 function App() {
-  const [colorList, setColorList] = useState([]);
 
   const PrivateRoute = ({component: Component, ...rest}) => {
     return ( <Route  {...rest} render={props => {

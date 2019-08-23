@@ -74,6 +74,7 @@ The MVP of this project will be broken up between 2 stages. Follow each step.
 
 ### Stage 1 - Authentication
 
+
 Build a login form to authenticate your users.
 
 - [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
