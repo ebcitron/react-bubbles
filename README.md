@@ -29,9 +29,20 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+  A token is stored in local-storage for you to use as proof to the browser you are logged in
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+  Test, Authenticate, Properly deploy
+
 - [ ] Describe how web servers work.
+
+  Web servers serve website content, they are always pingable and respond with the code your browser uses to render a website for you
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  Create Read Update Delete - Post Get Put Delete
 
 
 ## Project Set Up
@@ -62,6 +73,7 @@ Follow these steps for completing your project:
 The MVP of this project will be broken up between 2 stages. Follow each step.
 
 ### Stage 1 - Authentication
+
 
 Build a login form to authenticate your users.
 
